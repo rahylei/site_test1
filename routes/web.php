@@ -25,3 +25,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 */
 
 Route::get('/', [SiteController::class, 'index' ])->name('index');
+Route::get('/oferta', [SiteController::class, 'oferta_academica'])->name('oferta_academica');
