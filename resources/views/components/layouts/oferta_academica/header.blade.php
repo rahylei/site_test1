@@ -1,33 +1,35 @@
-<div class="">
-    <div class="row ">
-        <img class="img-fluid" src="{{asset('img/oferta_academica/mecatronica/BANNER_MECATRONICA1200X500.png')}}">
-    </div>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{asset('img/oferta_academica/mecatronica/BANNER_MECATRONICA1200X500.png')}}" class="d-block w-100" alt="...">
+    </div>        
+  </div>
+</div>    
 
-    <div class="row ">
-        <div class="container-fluid bg-danger">
-          <div class="container">
-            <ul class="nav row row-col-lg-6 row-col-md-6 row-col-sm-2 row-col-xs-2">
-              <li class="nav-item col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                <a class="nav-link text-white" href="#">Duracion 3 años 4 meses</a>
-              </li>
-              <li class="nav-item col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                <a class="nav-link text-white" href="#">Periodos cuatrimestrales</a>
-              </li>
-              <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                <a class="nav-link text-white" href="#">Modelo en base a competencias</a> {{--disabled <-class tabindex="-1" aria-disabled="true"--}}
-              </li>
-              <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                <a class="nav-link text-white" href="#">Estancias y estadias</a>
-              </li>
-              <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                <a class="nav-link text-white" href="#">Titulacion inmediata</a>
-              </li>
-              <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                <a class="nav-link text-white" href="#">Pertinencia con el sector publico</a>
-              </li>
-            </ul>
-          </div>  
-        </div>
-
-    </div>
+<div class="container-fluid bg-danger">
+  <div class="container text-white">
+    <h1>
+      INGENIERIA MECATRONICA
+    </h1>
+    <ul class="nav row row-col-lg-6 row-col-md-6 row-col-sm-2 row-col-xs-2">
+      <li class="nav-item col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <span class="nav-link text-white">Duracion 3 años 4 meses</span>
+      </li>
+      <li class="nav-item col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <span class="nav-link text-white">Periodos cuatrimestrales</span>
+      </li>
+      <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <span class="nav-link text-white">Modelo en base a competencias</span>
+      </li>
+      <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <span class="nav-link text-white">Estancias y estadias</span>
+      </li>
+      <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <span class="nav-link text-white">Titulacion inmediata</span>
+      </li>
+      <li class="nav-item  col-lg-2 col-md-2 col-sm-6 col-xs-12">
+        <span class="nav-link text-white">Pertinencia con el sector publico</span>
+      </li>
+    </ul>
+  </div>  
 </div>
