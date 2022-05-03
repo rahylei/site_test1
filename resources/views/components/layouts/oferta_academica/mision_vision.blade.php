@@ -2,7 +2,11 @@
     <div class="text-center">
         <h1>El rumbo de nuestra carrera</h1>
         <h5>Mision y Vision</h5>
-        <hr>
+
+        <div class="py-5">
+            <hr>    
+        </div>
+        
     </div>
     <div class="container">
         <div class="row">
@@ -27,5 +31,8 @@
             </div>
         </div>
     </div>
+</div>
 
+<div class="py-5">
+    <hr>    
 </div>

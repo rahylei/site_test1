@@ -6,7 +6,7 @@
     <title>{{$title}}</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}" >
 </head>
-<body >    
+<body class="">    
     <x-layouts.site.navbar/>
     <x-layouts.site.navbar_sticky/>
     {{$main}}

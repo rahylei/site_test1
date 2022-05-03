@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container py-5">
 
     <div class="text-center my-3 py-1">
         <h1>Sitios de interes</h1>

@@ -17,5 +17,8 @@
             </div>
         </div>
     </div>
-    
+</div>
+
+<div class="py-5">
+    <hr>    
 </div>

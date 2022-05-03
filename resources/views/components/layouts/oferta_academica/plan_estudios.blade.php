@@ -1,4 +1,4 @@
-<div class="container-fluid my-3 py-1" style="background-image: url({{asset('img/oferta_academica/mecatronica/parallax_mecatronica.png')}}); ">
+<div class="container-fluid my-3 py-3" style="background-image: url({{asset('img/oferta_academica/mecatronica/parallax_mecatronica.png')}}); ">
     <div class="">
         <div class="row justify-content-center align-items-center" style="height: 300px;">
             <div class="col">
@@ -8,4 +8,8 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="py-5">
+    <hr>    
 </div>

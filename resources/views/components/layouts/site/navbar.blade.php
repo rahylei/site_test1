@@ -1,8 +1,8 @@
-<div class="container-fluid " style="background-color: #151930; color: white;">
-  <div class="container py-3">
+<div class="container-fluid fs-5" style="background-color: #151930;">
+  <div class="container py-2">
     <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link text-muted fw-bold" href="#">Informacion Publica</a> {{-- active <- class aria-current="page"--}}
+      <li class="nav-item ">
+        <a class="nav-link text-muted text-decorate-none fw-bold text-white" href="#">Informacion Publica</a> {{-- active <- class aria-current="page"--}}
       </li>
       <li class="nav-item ">
         <a class="nav-link text-muted fw-bold" href="#">Aspirante</a>

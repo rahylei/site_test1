@@ -13,5 +13,8 @@
 
         </div>        
     </div>
-    
+</div>
+
+<div class="" style="padding-top: 80px;">
+    <hr>
 </div>

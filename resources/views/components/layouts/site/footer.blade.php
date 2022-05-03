@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background-color: #151930; color: white;">
+<div class="container-fluid pt-5" style="background-color: #151930; color: white;">
   <div class="container">
     <div class="row align-items-center justify-content-center mt-3 pt-1">
       <div class="col-xl-3 col-md-3 col-sm-12">
