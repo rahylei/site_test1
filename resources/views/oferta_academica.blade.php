@@ -3,7 +3,7 @@
         UPQ | Ingeieria Mecatronica
     </x-slot>
     <x-slot name="main">
-        <div class="fs-5">
+        <div class="">
             <x-layouts.oferta_academica.header/>
             <x-layouts.oferta_academica.perfiles/>
             <x-layouts.oferta_academica.plan_estudios/>

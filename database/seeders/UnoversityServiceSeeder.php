@@ -18,14 +18,46 @@ class UnoversityServiceSeeder extends Seeder
     {
         //
         DB::table('unoversity_services')->insert([
-            'name' => 'Difusion Universitaria',
+            'name' => 'DIFUSION UNIVERSITARIA',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
 
 
         DB::table('unoversity_services')->insert([
-            'name' => 'Servicios estudiantiles',
+            'name' => 'SERVICIOS ESTUDIANTILES',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('unoversity_services')->insert([
+            'name' => 'MODALIDAD ACADEMICA',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('unoversity_services')->insert([
+            'name' => 'BIBLIOTECA',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('unoversity_services')->insert([
+            'name' => 'EDUCACION CONTINUA',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+
+        DB::table('unoversity_services')->insert([
+            'name' => 'BOLSA DE TRABAJO',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+
+        DB::table('unoversity_services')->insert([
+            'name' => 'FORO DE CONSULTA',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);

@@ -18,13 +18,13 @@ class InstegralFormationSeeder extends Seeder
     {
         //
         DB::table('instegral_formations')->insert([
-            'name' => 'Desarrollo Humano',
+            'name' => 'DESARROLLO HUMANO',
             'created_at' => Carbon::now(),
             'updated_at' =>  Carbon::now(),
         ]);
 
         DB::table('instegral_formations')->insert([
-            'name' => 'Lengua Extranjera',
+            'name' => 'LENGUA EXTRANJERA',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);

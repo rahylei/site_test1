@@ -1,20 +1,20 @@
-<div class="container-fluid fs-5" style="background-color: #151930;">
-  <div class="container py-2">
+<div class="container-fluid " style="background-color: #151930;">
+  <div class="container">
     <ul class="nav">
       <li class="nav-item ">
-        <a class="nav-link text-muted text-decorate-none fw-bold text-white" href="#">Informacion Publica</a> {{-- active <- class aria-current="page"--}}
+        <a class="nav-link text-white btn-outline-danger py-2" href="#">INFORMACION PUBLICA</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link text-muted fw-bold" href="#">Aspirante</a>
+        <a class="nav-link text-white fw-bold btn-outline-danger py-2" href="#">ASPIRANTE</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link text-muted fw-bold" href="#">Alumnado</a>
+        <a class="nav-link text-white fw-bold btn-outline-danger py-2" href="#">ALUMNADO</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link text-muted fw-bold" href="#">Egresado</a> {{--disabled <-class tabindex="-1" aria-disabled="true"--}}
+        <a class="nav-link text-white fw-bold btn-outline-danger py-2" href="#">EGRESADO</a> 
       </li>
       <li class="nav-item ">
-        <a class="nav-link text-muted fw-bold" href="#">Docentes</a>
+        <a class="nav-link text-white fw-bold btn-outline-danger py-2" href="#">DOCENTES</a>
       </li>
     </ul>
   </div>  

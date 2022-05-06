@@ -18,13 +18,73 @@ class InstitutionSeeder extends Seeder
     {
         //
         DB::table('institutions')->insert([
-            'name' => 'historia',
+            'name' => 'MENSAJE DEL RECTOR',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
 
         DB::table('institutions')->insert([
-            'name' => 'filosofia',
+            'name' => 'HISTORIA',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'FILOSOFIA',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'MODELO EDUCATIVO',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'MASCOTAS',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'MARCO JURIDICO',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'ORGANIGRAMA',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'DIRECTORIO',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'UBICACION',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'INSTALACIONES',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'IGUALDAD LABORAL Y NO LABORAL',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+
+        DB::table('institutions')->insert([
+            'name' => 'SISTEMA DE GESTION DE CALIDAD',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);

@@ -14,4 +14,8 @@ class SiteController extends Controller
     function oferta_academica(){
         return view('oferta_academica');
     }
+
+    function difusion_universitaria(){
+        return view('difucion_universitaria_index');
+    }
 }

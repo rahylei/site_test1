@@ -1,13 +1,13 @@
 <div class="container my-3 py-1">
     <div class="row justify-content-center align-items-center">
         <div class="col text-center">
-            <a data-bs-toggle="collapse" href="#ciclo1" role="button" aria-expanded="true" aria-controls="ciclo1"><button class="btn btn-danger">1</button></a>
+            <a data-bs-toggle="collapse" href="#ciclo1" role="button" aria-expanded="true" aria-controls="ciclo1"><button class="btn btn-outline-danger">1</button></a>
         </div>
         <div class="col text-center">
-            <a data-bs-toggle="collapse" href="#ciclo2" role="button" aria-expanded="false" aria-controls="ciclo2"><button class="btn btn-danger">2</button></a>
+            <a data-bs-toggle="collapse" href="#ciclo2" role="button" aria-expanded="false" aria-controls="ciclo2"><button class="btn btn-outline-danger">2</button></a>
         </div>
         <div class="col text-center">
-            <a data-bs-toggle="collapse" href="#ciclo3" role="button" aria-expanded="false" aria-controls="ciclo3"><button class="btn btn-danger">3</button></a>
+            <a data-bs-toggle="collapse" href="#ciclo3" role="button" aria-expanded="false" aria-controls="ciclo3"><button class="btn btn-outline-danger">3</button></a>
         </div>
     </div>
     <div class="container-md bg-danger text-white w-75 my-5 rounded-3">

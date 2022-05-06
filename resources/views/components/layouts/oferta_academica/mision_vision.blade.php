@@ -14,9 +14,7 @@
                 <nav class="nav flex-column nav-tabs">
                   <a class="nav-link text-muted" data-bs-toggle="collapse" href="#mision" role="button" aria-expanded="true" aria-controls="mision">Mision</a>
                   <a class="nav-link text-muted" data-bs-toggle="collapse" href="#vision" role="button" aria-expanded="true" aria-controls="vision">Vision</a>
-                </nav>
-                {{--<a class="d-block" data-bs-toggle="collapse" href="#mision" role="button" aria-expanded="true" aria-controls="mision"><button class="">Mision</button></a>
-                <a class="d-block" data-bs-toggle="collapse" href="#vision" role="button" aria-expanded="true" aria-controls="vision"><button class="">Vision</button></a>--}}
+                </nav>                
             </div>
             <div class="col-9">
                 <div class="collapse" id="mision">

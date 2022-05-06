@@ -4,7 +4,7 @@
   </a>
   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
     @foreach($list as $ofert)
-    <li><a class="dropdown-item" href="#">{{$ofert->name}}</a></li>
+    <li class=""><a class="dropdown-item" href="#">{{$ofert->name}}</a></li>
     @endforeach
   </ul>
 </li>
