@@ -7,9 +7,9 @@
                 <a class="nav-link text-reset text-decoration-none" data-bs-toggle="collapse" href="#conocimientos" role="button" aria-expanded="false" aria-controls="conocimientos"><h3>Conocimientos</h3></a>
                 <div class="collapse" id="conocimientos">
                     <ul>
-                        <li>Ciencian en general</li>
-                        <li>Fisica</li>
-                        <li>Matematicas</li>
+                        @foreach(Str::of($pi->conocimientos)->explode('#') as $item)
+                            <li>{{$item}}</li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
@@ -17,10 +17,9 @@
                 <a class="nav-link text-reset text-decoration-none" data-bs-toggle="collapse" href="#habilidades" role="button" aria-expanded="false" aria-controls="habilidades"><h3>Habilidades</h3></a>
                 <div class="collapse" id="habilidades">
                     <ul>
-                        <li>Coperacion</li>
-                        <li>Integracion</li>
-                        <li>Manejo de TI</li>
-                        <li>Razonamiento matematico</li>
+                        @foreach(Str::of($pi->habilidades)->explode('#') as $item)
+                            <li>{{$item}}</li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
@@ -28,16 +27,14 @@
                 <a class="nav-link text-reset text-decoration-none" data-bs-toggle="collapse" href="#aptitudes" role="button" aria-expanded="false" aria-controls="aptitudes"><h3>Aptitudes</h3></a>
                 <div class="collapse" id="aptitudes">
                     <ul>
-                        <li>Adaptabilidad al cambio</li>
-                        <li>Autoevaluacion</li>
-                        <li>Diciplina</li>
-                        <li>Proactivo</li>
-                        <li>Responsabilidad</li>
-                        <li>Trabajo en equipo</li>
+                        @foreach(Str::of($pi->aptitudes)->explode('#') as $item)
+                            <li>{{$item}}</li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
         </div>
+        
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h1>Perfil de egreso</h1>
             <hr>

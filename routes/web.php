@@ -25,5 +25,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 */
 
 Route::get('/', [SiteController::class, 'index' ])->name('index');
-Route::get('/oferta', [SiteController::class, 'oferta_academica'])->name('oferta_academica');
+Route::get('/oferta/{id}', [SiteController::class, 'oferta_academica'])->name('oferta_academica');
 Route::get('/difusion', [SiteController::class, 'difusion_universitaria'])->name('difusion_universitaria');

@@ -3,6 +3,7 @@
 namespace App\View\Components\layouts\oferta_academica;
 
 use Illuminate\View\Component;
+//use Illuminate\Support\Str;
 
 class perfiles extends Component
 {
@@ -11,8 +12,9 @@ class perfiles extends Component
      *
      * @return void
      */
+
     public function __construct()
-    {
+    {        
         //
     }
 

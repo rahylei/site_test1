@@ -17,7 +17,12 @@ class AdmissionProfileSeeder extends Seeder
     public function run()
     {
         DB::table('admission_profiles')->insert([
-            'conocimientos' => ''
+            'conocimientos' => 'Ciencia en general#Fisica#Matematicas',
+            'habilidades' => 'Cooperacion#Integracion#Manejo de TI#Razonamiento matematico',
+            'aptitudes' => 'Adaptabilidad al cambio#Autoevaluacion#Diciplina#Proactivo#Responsabilidad#Trabajo en equipo',
+            'academic_ofert' => 1,
+            'created_at' => Carbon::now(),
+            'updated_at'=> Carbon::now(),
         ]);
     }
 }

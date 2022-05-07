@@ -18,7 +18,8 @@ return new class extends Migration
             $table->string('conocimientos');
             $table->string('habilidades');
             $table->string('aptitudes');
-            $table->foreingId('academic_ofert')->constrained('academic_oferts')
+            $table->foreignId('academic_ofert')
+                ->constrained('academic_oferts')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
             $table->timestamps();

@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             InstegralFormationSeeder::class,
             InstitutionSeeder::class,
             UnoversityServiceSeeder::class,
+            AdmissionProfileSeeder::class,
         ]);
     }
 }
